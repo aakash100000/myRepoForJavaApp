@@ -76,6 +76,9 @@ pipeline {
         
         stage('QA Deploy'){
             
+            steps{
+                echo 'Deploy to QA Tomcat'
+            
             
         }
     }
