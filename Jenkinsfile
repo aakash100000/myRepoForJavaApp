@@ -32,8 +32,8 @@ pipeline {
                 
                 withSonarQubeEnv('SonarQube Scanner') {
     
-    bat 'mvn sonar:sonar -f MyWebApp/pom.xml'
-}
+                          bat 'mvn sonar:sonar -f MyWebApp/pom.xml'
+                    }
             }
             
         }
@@ -84,3 +84,4 @@ pipeline {
         }
     }
 }
+   
